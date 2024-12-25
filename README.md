@@ -1,0 +1,2 @@
+# VHDL Counter Overflow Bug
+This repository demonstrates a common bug in VHDL code: an integer counter without proper overflow handling.  The `buggy_counter.vhdl` file contains the buggy code. The counter increments until it hits the upper limit of its range (15), then continues to increment leading to unexpected behavior. The `fixed_counter.vhdl` file provides a corrected version.  This example highlights the importance of handling boundary conditions in VHDL designs to prevent unexpected results.
